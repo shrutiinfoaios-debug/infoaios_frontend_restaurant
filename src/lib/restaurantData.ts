@@ -1,0 +1,73 @@
+// src/lib/restaurantData.ts
+export const restaurantData = [
+  {
+    id: "1",
+    name: "Spice Route",
+    cuisine: "Indian",
+    address: "123 Curry Lane, Foodville",
+    phone: "555-111-2222",
+    rating: 4.2,
+    menu: [
+      { item: "Butter Chicken", price: 16.99 },
+      { item: "Garlic Naan", price: 3.50 },
+    ],
+    openingHours: "Mon-Sun: 12 PM - 10 PM",
+    website: "https://spiceroute.com",
+  },
+  {
+    id: "2",
+    name: "Pasta Paradise",
+    cuisine: "Italian",
+    address: "456 Noodle St, Gastronomy City",
+    phone: "555-333-4444",
+    rating: 4.7,
+    menu: [
+      { item: "Spaghetti Carbonara", price: 18.50 },
+      { item: "Tiramisu", price: 7.00 },
+    ],
+    openingHours: "Tue-Sat: 5 PM - 11 PM",
+    website: "https://pastaparadise.net",
+  },
+  {
+    id: "3",
+    name: "Sushi Central",
+    cuisine: "Japanese",
+    address: "789 Raw Fish Rd, Culinary Town",
+    phone: "555-555-6666",
+    rating: 4.5,
+    menu: [
+      { item: "Salmon Nigiri", price: 22.00 },
+      { item: "Dragon Roll", price: 19.50 },
+    ],
+    openingHours: "Mon-Fri: 11:30 AM - 2 PM, 5:30 PM - 9:30 PM",
+    website: "https://sushicentral.jp",
+  },
+  {
+    id: "4",
+    name: "Burger Haven",
+    cuisine: "American",
+    address: "101 Patty Place, Grillville",
+    phone: "555-666-7777",
+    rating: 3.9,
+    menu: [
+      { item: "Classic Burger", price: 12.00 },
+      { item: "Fries", price: 4.00 },
+    ],
+    openingHours: "Mon-Sun: 11 AM - 9 PM",
+    website: "https://burgerhaven.com",
+  },
+  {
+    id: "5",
+    name: "Green Garden",
+    cuisine: "Vegan",
+    address: "202 Veggie Way, Health City",
+    phone: "555-888-9999",
+    rating: 4.8,
+    menu: [
+      { item: "Quinoa Salad", price: 14.00 },
+      { item: "Lentil Soup", price: 9.00 },
+    ],
+    openingHours: "Mon-Sat: 10 AM - 8 PM",
+    website: "https://greengarden.org",
+  },
+];
