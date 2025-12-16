@@ -8,7 +8,7 @@ export default defineConfig(({ mode }) => ({
   base: "/",            // ✅ subdomain ke root pe app
 
   server: {
-    host: "::",
+    host: true,
     allowedHosts : ['user.infoaios.ai'],
     port: 3001,
         strictPort: true, // 👈 This line prevents Vite from switching to 8081
