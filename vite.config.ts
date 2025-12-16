@@ -9,7 +9,7 @@ export default defineConfig(({ mode }) => ({
 
   server: {
     host: "::",
-    allowedHost : "infoaios.ai",
+    allowedHosts : ['user.infoaios.ai'],
     port: 3001,
         strictPort: true, // 👈 This line prevents Vite from switching to 8081
 
